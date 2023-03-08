@@ -58,3 +58,12 @@ let yoursEmail = prompt("Please write yours email", "");
 
 document.write(`Dear ${yoursLogin}, \n\t your email is ${yoursEmail}, \n\t your password is ${yoursPass
 }`);
+///////////////////// taks 8
+
+let secondsPerHour = 60 * 60;
+let secondsPerDay = 24 * secondsPerHour;
+let secondsPerMonth = 30 * secondsPerDay;
+
+console.log(`There is such seconds in the hour: ${secondsPerHour}`); 
+console.log(`There is such seconds in the day: ${secondsPerDay}`);
+console.log(`There is such seconds in the month: ${secondsPerMonth}`);
