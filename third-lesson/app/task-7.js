@@ -8,4 +8,5 @@ function findUnique(arr) {
     }
     return true;
   }
-  findUnique([1, 2, 3, 5, 3]);
+  findUnique([1, 2, 3, 5, 4]); /////// true 
+  findUnique([1, 2, 3, 5, 3]); /////// false
