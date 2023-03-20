@@ -22,8 +22,8 @@ function createArrayFromStartToEnd(start, end) {
   return arr;
 }
 
-const arr = createArrayFromStartToEnd(2, 9);
-console.log(arr); // [2,3,4,5,6,7,8,9]
+const arr = createArrayFromStartToEnd();
+console.log(createArrayFromStartToEnd(2, 9)); // [2,3,4,5,6,7,8,9]
 
 //////////////////// Task 3
 
@@ -51,9 +51,6 @@ function randArray(k) {
 
 let myArray = randArray(5);
 console.log(myArray);
-
-////////////////// Task 5
-
 
 
 ////////////////// Task 6
