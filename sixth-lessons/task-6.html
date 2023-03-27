@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colnsole</title>
+    <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
+    <link rel="stylesheet" href="css/task-6.css">
+</head>
+
+<body>
+
+    <div id="product">
+        <h2>Товар</h2>
+        <p>Ціна: <span id="price">100</span> грн</p>
+        <div>
+          <label for="color">Колір:</label>
+          <select id="color" onchange="updatePrice()">
+            <option value="100">Червоний</option>
+            <option value="120">Зелений</option>
+            <option value="130">Синій</option>
+          </select>
+        </div>
+        <div>
+          <label for="size">Розмір:</label>
+          <select id="size" onchange="updatePrice()">
+            <option value="100">Малий</option>
+            <option value="120">Середній</option>
+            <option value="150">Великий</option>
+          </select>
+        </div>
+      </div>
+    <script src="app/task-6.js"></script>
+</body>
+
+</html>
